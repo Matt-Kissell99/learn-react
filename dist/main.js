@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/hello-world.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = 0);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -94,7 +94,29 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nconsole.log('Hello world');\n\n//# sourceURL=webpack:///./src/hello-world.js?");
+eval("\n\nconsole.log('Hello world');\n\nvar multiplyES6 = function multiplyES6(x, y) {\n  return x * y;\n};\n\nconsole.log(multiplyES6(7, 7));\n\n//# sourceURL=webpack:///./src/hello-world.js?");
+
+/***/ }),
+
+/***/ "./src/main.scss":
+/*!***********************!*\
+  !*** ./src/main.scss ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./src/main.scss?");
+
+/***/ }),
+
+/***/ 0:
+/*!**************************************************!*\
+  !*** multi ./src/hello-world.js ./src/main.scss ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("__webpack_require__(/*! ./src/hello-world.js */\"./src/hello-world.js\");\nmodule.exports = __webpack_require__(/*! ./src/main.scss */\"./src/main.scss\");\n\n\n//# sourceURL=webpack:///multi_./src/hello-world.js_./src/main.scss?");
 
 /***/ })
 
