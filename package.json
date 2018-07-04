@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Matt-Kissell99/learn-react/issues"
   },
-  "homepage": "https://github.com/Matt-Kissell99/learn-react#readme"
+  "homepage": "https://github.com/Matt-Kissell99/learn-react#readme",
+  "devDependencies": {
+    "webpack": "^4.14.0",
+    "webpack-cli": "^3.0.8"
+  }
 }
