@@ -4,7 +4,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
     entry: [
-        './src/hello-world.js',
+        './src/index.js',
         './src/main.scss'
     ],
     output: {
@@ -17,7 +17,10 @@ module.exports = {
                 test: /\.js$/,
                 exclude: /node_modules/,
                 use: {
-                    loader: "babel-loader"
+                    loader: "babel-loader",
+                    options: {
+                        presets: ['env', 'react']
+                    }
                 }
             },
             {
