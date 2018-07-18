@@ -1,11 +1,11 @@
 import React from 'react'
 
-function input_field({name, type = "number"}) {
+function Input({name, type = "text"}) {
     return (
         <input {...{name, type}} className="Input" />
     )
 
 }
 
-export default input_field
+export default Input
 

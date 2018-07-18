@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Input from './components/1-atoms/input'
 
 const Index = () => {
     return <div>Hello React!</div>;
@@ -14,6 +15,7 @@ const Index3 = () => {
             <div>
             <Index />
             <Index2 />
+            <Input/>
             </div>
         )
 };
