@@ -20,4 +20,4 @@ const Index3 = () => {
         )
 };
 
-ReactDOM.render(<Index3 />, document.getElementById("root"));
+ReactDOM.render(<Index3 />, document.getElementById("basic div"));
