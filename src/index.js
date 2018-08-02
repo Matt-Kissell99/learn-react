@@ -3,11 +3,11 @@ import ReactDOM from 'react-dom';
 import Input from './components/1-atoms/input';
 
 const Index = () => {
-    return <div>Hello React!</div>;
+    return <p>Hello React!</p>;
 };
 
 const Index2 = () => {
-    return <div>Hello Matt!</div>;
+    return <p>Hello Matt!</p>;
 };
 
 const Index3 = () => {
