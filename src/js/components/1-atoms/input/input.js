@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Input({name, type = "text"}) {
+function Input({ name, type = "text" }) {
     return (
-        <input {...{name, type}} className="Input" />
+        <input {...{name, type}} className="input" />
     )
 
 }
