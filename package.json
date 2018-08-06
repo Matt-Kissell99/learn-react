@@ -38,5 +38,13 @@
     "hoek": "^4.2.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1"
-  }
+  },
+  "browserslist": [
+    "iOS > 10",
+    "IE 11",
+    "Edge > 14",
+    "last 2 Chrome versions",
+    "last 2 Firefox versions",
+    "last 2 Safari version"
+  ]
 }
