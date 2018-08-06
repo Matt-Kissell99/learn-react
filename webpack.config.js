@@ -5,11 +5,11 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 module.exports = {
     entry: [
         './src/index.js',
-        './src/main.scss'
+        './src/scss/main.scss'
     ],
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'main.js'
+        filename: 'scripts/main.js'
     },
     module: {
         rules: [
@@ -37,7 +37,7 @@ module.exports = {
     plugins: [
         new ExtractTextPlugin({
             // Output CSS
-            filename: 'main.css'
+            filename: 'styles/main.css'
         })
     ]
 };

@@ -346,29 +346,41 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar Index = function Index() {\n    return _react2.default.createElement(\n        \"div\",\n        null,\n        \"Hello React!\"\n    );\n};\n\nvar Index2 = function Index2() {\n    return _react2.default.createElement(\n        \"div\",\n        null,\n        \"Hello Matt!\"\n    );\n};\n\nvar Index3 = function Index3() {\n    return _react2.default.createElement(\n        \"div\",\n        null,\n        _react2.default.createElement(Index, null),\n        _react2.default.createElement(Index2, null)\n    );\n};\n\n_reactDom2.default.render(_react2.default.createElement(Index3, null), document.getElementById(\"root\"));\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nvar _reactDom = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n\nvar _reactDom2 = _interopRequireDefault(_reactDom);\n\nvar _input = __webpack_require__(/*! ./js/components/1-atoms/input/input */ \"./src/js/components/1-atoms/input/input.js\");\n\nvar _input2 = _interopRequireDefault(_input);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n_reactDom2.default.render(_react2.default.createElement(_input2.default, null), document.getElementById('root'));\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
-/***/ "./src/main.scss":
-/*!***********************!*\
-  !*** ./src/main.scss ***!
-  \***********************/
+/***/ "./src/js/components/1-atoms/input/input.js":
+/*!**************************************************!*\
+  !*** ./src/js/components/1-atoms/input/input.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\nObject.defineProperty(exports, \"__esModule\", {\n    value: true\n});\n\nvar _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };\n\nvar _react = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar _react2 = _interopRequireDefault(_react);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nfunction Input(_ref) {\n    var name = _ref.name,\n        _ref$type = _ref.type,\n        type = _ref$type === undefined ? \"text\" : _ref$type;\n\n    return _react2.default.createElement(\"input\", _extends({ name: name, type: type }, { className: \"Input\" }));\n}\n\nexports.default = Input;\n\n//# sourceURL=webpack:///./src/js/components/1-atoms/input/input.js?");
+
+/***/ }),
+
+/***/ "./src/scss/main.scss":
+/*!****************************!*\
+  !*** ./src/scss/main.scss ***!
+  \****************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./src/main.scss?");
+eval("// removed by extract-text-webpack-plugin\n\n//# sourceURL=webpack:///./src/scss/main.scss?");
 
 /***/ }),
 
 /***/ 0:
-/*!********************************************!*\
-  !*** multi ./src/index.js ./src/main.scss ***!
-  \********************************************/
+/*!*************************************************!*\
+  !*** multi ./src/index.js ./src/scss/main.scss ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("__webpack_require__(/*! ./src/index.js */\"./src/index.js\");\nmodule.exports = __webpack_require__(/*! ./src/main.scss */\"./src/main.scss\");\n\n\n//# sourceURL=webpack:///multi_./src/index.js_./src/main.scss?");
+eval("__webpack_require__(/*! ./src/index.js */\"./src/index.js\");\nmodule.exports = __webpack_require__(/*! ./src/scss/main.scss */\"./src/scss/main.scss\");\n\n\n//# sourceURL=webpack:///multi_./src/index.js_./src/scss/main.scss?");
 
 /***/ })
 
