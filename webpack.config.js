@@ -39,7 +39,7 @@ module.exports = {
                         }
                     ]
                 }),
-            } ]
+            }]
     },
     plugins: [
         new ExtractTextPlugin({
