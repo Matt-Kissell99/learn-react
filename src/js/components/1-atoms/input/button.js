@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Button({ name, type = "button", url=''}) {
+function Button({ name, type = "button", url='', children}) {
     return (
-        <button {...{name, type='button', className, url=''}}>{...{value}}</button>
+        <button {...{name, type, className, url=''}}>{children}</button>
     )
 
 }
