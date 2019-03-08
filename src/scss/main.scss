@@ -1,17 +1,11 @@
-$color: blue;
+$blue: blue;
+$green: darkgreen;
+$orange: orange;
+$purple: purple;
+$red: red;
 
-.test {
-  color: $color;
-}
+@import 'button.scss';
 
-// Autoprefix test
-.example {
-    display: grid;
-    transition: all .5s;
-    user-select: none;
-    background: linear-gradient(to bottom, white, black);
-}
-// Autoprefixer test
-::placeholder {
-	color: gray;
-}
+@import 'input.scss';
+
+@import 'example.scss';

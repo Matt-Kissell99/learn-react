@@ -1,0 +1,35 @@
+//styling for the fields
+.field--primary {
+    background-color: $orange;
+}
+
+.field--secondary {
+    background-color: $green;
+}
+
+.field__name--primary {
+    background-color: $purple;
+}
+
+.field__name--curved {
+    border: 2px solid $red;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+//specific margin modifiers for fields (used for symbolism of significance)
+.field--margin-right {
+    margin-right: 10px;
+}
+
+.field--margin-top {
+    margin-top: 10px;
+}
+
+.field--no-margin {
+    margin: none;
+}
+
+.label {
+	display: block;
+}

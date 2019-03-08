@@ -1,0 +1,35 @@
+//styling for the buttons
+.btn--primary {
+    background-color: $blue;
+}
+
+.btn--secondary {
+    background-color: $green;
+}
+
+//margin for separation
+.button--margin-right {
+    margin-right: 10px;
+}
+
+.button--margin-top {
+    margin-top: 10px;
+}
+
+.btn--no-margin {
+    margin: none;
+}
+
+.test {
+
+    background-color: orange;
+
+    &--hidden {
+        display: none;
+    }
+
+    &--shadow {
+        border-bottom: 1px solid red;
+    }
+
+}
