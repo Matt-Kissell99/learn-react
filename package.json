@@ -2,7 +2,7 @@
   "name": "learn-react",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "build": "webpack --mode production",
     "dev": "webpack --mode development"
@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "hoek": "^4.2.1",
-    "react": "^16.4.1",
+    "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },
   "browserslist": [
