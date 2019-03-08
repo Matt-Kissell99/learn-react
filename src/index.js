@@ -1,9 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-
-import Input from './js/components/1-atoms/input/input'
+import App from './js/components/App.js'
 
 ReactDOM.render(
-	<Input />, 
+	<App />, 
 	document.getElementById('root')
 );
